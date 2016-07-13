@@ -16,7 +16,22 @@ console.log(x == y); //False
 var isWorking = true;
 var hasProjects = true;
 var promotionStatus = isWorking && hasProjects;
-
 console.log(promotionStatus);
+
+truthy and falsy values
+-------------------------
+
+falsy values:
+-------------
+false
+null
+undefined
+"" or '' (empty string)
+0
+NaN
+
+All other values (including all objects) are truthy
+----------------------------------------------------
+"0" "false"
 
 
