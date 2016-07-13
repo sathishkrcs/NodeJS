@@ -13,10 +13,26 @@ var y = "10";
 console.log(x == y); //true
 console.log(x == y); //False
 
+And Condition
+-------------
+
+if first operand is truthy 
+  then result is second operand
+  else result first operand
+
 var isWorking = true;
 var hasProjects = true;
 var promotionStatus = isWorking && hasProjects;
 console.log(promotionStatus);
+
+Or Condition
+------------
+if first operand is truthy 
+  then result is first operand
+  else result second operand
+
+
+
 
 truthy and falsy values
 -------------------------
@@ -33,5 +49,7 @@ NaN
 All other values (including all objects) are truthy
 ----------------------------------------------------
 "0" "false"
+
+
 
 
