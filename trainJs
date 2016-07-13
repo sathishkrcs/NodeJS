@@ -80,6 +80,10 @@ var greet = function() {
   console.log('Good Morning!');
 }
 
+function sayGreet(greeter) {
+  greeter();
+}
+
 function main() {
    // Flavour 1
    var hello = sayHello;
@@ -89,6 +93,12 @@ function main() {
    hai();
    //Call F3
    greet();
+   
+   var greets = function() {
+     console.log("Hi Buddy..!");
+   }
+   
+   sayGreet(greets);
 }
 
 
