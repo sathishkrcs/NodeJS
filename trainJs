@@ -62,6 +62,36 @@ function add(n1, n2, n3, n4, n5) {
 
 add(10, 3);
 
+function getResult() {
+  return; //undefined
+}
+
+function sayHello() {
+   console.log('say hello');
+}
+
+//Flavour 2
+var hai = function sayHai() {
+   console.log('say hai');
+}
+
+//Flavour 3
+var greet = function() {
+  console.log('Good Morning!');
+}
+
+
+function main() {
+   // Flavour 1
+   var hello = sayHello;
+   //Calling function
+   hello();
+   //Call f2
+   hai();
+   //Call F3
+   greet();
+}
+
 
 
 
