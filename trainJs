@@ -15,7 +15,6 @@ console.log(x == y); //False
 
 And Condition
 -------------
-
 if first operand is truthy 
   then result is second operand
   else result first operand
@@ -31,12 +30,15 @@ if first operand is truthy
   then result is first operand
   else result second operand
 
+var angular = angular || {vaesion : '1.2.3'};
+console.log(angular.version); //1.2.3
 
-
+var angular = {vaesion : '2.3'};
+angular = angular || {vaesion : '1.2.3'};
+console.log(angular.version); //2.3
 
 truthy and falsy values
 -------------------------
-
 falsy values:
 -------------
 false
