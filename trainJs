@@ -81,7 +81,7 @@ var greet = function() {
 }
 
 function sayGreet(greeter) {
-  greeter();
+  greeter('Hai');
 }
 
 function main() {
@@ -99,6 +99,12 @@ function main() {
    }
    
    sayGreet(greets);
+   sayGreet(function() { console.log("Hi Dude..!");
+   sayGreet(function(data) { console.log(data); } );
+   
+   });
+   
+   
 }
 
 
