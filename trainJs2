@@ -7,3 +7,12 @@ Heap
 Functions will go to stack --> stack frame
 Call back function will go to ---> event queue
 Event loop - is a background thread, keep watch some thing needs to pushed. When the event triggers this will pushed to stack frame
+Callback : If functions needs to be executed after some delay
+
+//Sync
+console.log('Immediate output');
+
+//Asyn
+setTimeout(function() {
+  console.log("Delayed output");
+},1000);
