@@ -43,6 +43,11 @@ The Node Event Emitter
 ----------------------
 Events Listener: Code that responds to an Events
 
+Magic String 
+-----------
+A String has special meaning in our code.
+
+
 
 
 
