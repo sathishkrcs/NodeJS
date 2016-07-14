@@ -15,4 +15,48 @@ console.log('Immediate output');
 //Asyn
 setTimeout(function() {
   console.log("Delayed output");
-},1000);
+}, 1000);
+
+Inner Functions - Closures
+--------------------------
+function sayGreet() {
+  var hai = function() {
+    console.log('hai');
+  }
+  var hello = function() {
+    console.log('hello');
+  }
+}
+
+An inner function has access to the variables and parameters of functions that it is contained within.
+
+
+JS Scope
+--------
+Scope is life or visibility - Local and Global
+
+Local, Global
+
+Closure
+--------
+
+function greeter(sal) {
+  //local variable
+  var counter = 0;
+  var prefix = '.' + saluation + '';
+  
+  //closure inner function
+  return function(name) {
+     counter++;
+     return counter + prefix + name + '';
+  };
+}
+
+function main() {
+  var greet = greeter('Mr');
+  console.log(greet('Sathish Kumar'));
+}
+
+
+
+
