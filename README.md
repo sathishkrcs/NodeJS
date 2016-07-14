@@ -39,6 +39,9 @@ arr.forEach(function(item, index) {
   item();
 });
 
+The Node Event Emitter
+----------------------
+Events Listener: Code that responds to an Events
 
 
 
