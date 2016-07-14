@@ -1,0 +1,9 @@
+Event Callback
+
+Event loop
+Stack --> stack Iframe
+Heap
+
+Functions will go to stack --> stack frame
+Call back function will go to ---> event queue
+Event loop - is a background thread, keep watch some thing needs to pushed. When the event triggers this will pushed to stack frame
