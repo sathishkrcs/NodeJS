@@ -57,6 +57,30 @@ function main() {
   console.log(greet('Sathish Kumar'));
 }
 
+  var result = 100 + 100; //200
+    console.log(result);
 
+    result = "$" + 100; //$100
+    console.log(result);
+
+    result = +"100" * 10; //1000
+    console.log(result);
+
+
+    function buildTicketMaker(mode) {
+
+        var ticketno = 0;
+        console.log('...Tickets....');
+        return function (name) {
+            ticketno++;
+            console.log('Here is the transportation ticket via ' + mode);
+            console.log('Welcome to CTS tours,' + name + '! You are passenger #' + ticketno);
+        }
+
+    }
+
+    var buildYourTicket = buildTicketMaker('Air');
+    buildYourTicket('Sathish');
+    buildYourTicket('Vinod');
 
 
