@@ -1,3 +1,5 @@
+https://learnxinyminutes.com/docs/typescript/
+
 Events and Events Emmiter
 ------------------------
 Event:
