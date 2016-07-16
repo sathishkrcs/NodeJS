@@ -1,4 +1,7 @@
 
+             Event Driven Non-Blocking I/O in V8 Javascript.
+-------------------------------------------------------------------
+
 System Events 
 -------------
 
@@ -22,7 +25,7 @@ libuv
 - OS will update the completed events to this queue.
 - There is a event loop will check for completed events in libuv. 
 - When libuv sees completed events in event loop, It process the events and call the callback in V8(JS callback). 
-- This is completly async , libuv and v8 runs parllely.
+- This is completly async , libuv and v8 runs parllely inside node itself.
 
 
 
