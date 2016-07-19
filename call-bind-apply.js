@@ -4,10 +4,8 @@ var person = {
     firstname: 'John',
     lastname: 'Doe',
     getFullName: function () {
-
         var fullname = this.firstname + ' ' + this.lastname;
         return fullname;
-
     }
 }
 
