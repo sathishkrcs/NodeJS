@@ -1,4 +1,4 @@
-### Protocol - NPM - Node Package Manager
+# NPM - Node Package Manager
 -----------------------------------
 
 Package is a collection of code managed and maintained by package management system.
@@ -14,7 +14,7 @@ Package is a collection of code managed and maintained by package management sys
 
 Specifying what version of a set of code. 
 
-### INIT, nodemon
+## INIT, nodemon
 -----------------
 
 ##npm init
@@ -39,27 +39,27 @@ Specifying what version of a set of code.
 }
 ```
 
-##npm install moment --save
+## npm install moment --save
 ---------------------------
 Adds the dependencies in package.json
 
-#^ Update minor versions  "moment": "^2.[4].1"
+###^ Update minor versions  "moment": "^2.[4].1"
 4 is the minor version.
 
-#~ Update patch versions  "moment": "~2.4.[1]"
+###~ Update patch versions  "moment": "~2.4.[1]"
 1 is the patch version.
 
 ##npm install jasmine-node --save-dev
 ---------------------------------
 install under [devDependencies] which is not required to run the application for user.
 
-### Nodemon
+## Nodemon
 -----------
 
 - Restart the node server , if there any change in the app.
 - npm install -g nodemon 
 
-#cmd - nodemon app.js
+###cmd - nodemon app.js
 
 
 
