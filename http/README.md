@@ -26,6 +26,10 @@
 
 - Mapping Http Requests to Content. Wheather actual files are exists are not.
 
+### REST
+
+An Architectural style for building API. Stands for Representational state transfer.
+
 
 
 
