@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.14.1"
+    "moment": "^2.14.1",
+    "mongoose": "^4.5.5",
+    "mysql": "^2.11.1"
   },
   "devDependencies": {
     "jasmine-node": "^1.14.5"
