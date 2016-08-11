@@ -1,0 +1,12 @@
+var testB: boolean = false;
+var testS: String = "Sathish";
+var list: number[] = [1, 2, 3];
+var list2: Array<number> = [1, 2, 3];
+
+function noReturn(): void {
+	console.log('I wont return anything');
+}
+
+function returnNumber(i: number): number {
+	return i + i;
+}
