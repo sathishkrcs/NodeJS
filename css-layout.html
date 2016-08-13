@@ -1,0 +1,178 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My CSS Training</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            /* CSS Reset */
+            * {
+                margin: 0;
+                padding: 0;
+                border: 0px;
+            }
+
+            /* Global Style*/
+            html, body {
+                text-align: center;
+                font: 100% Georgia;
+            }
+
+            /*Specific Style*/
+            #container {
+                background-color: #FFFFFF;
+                width: 900px;
+                margin: 0 auto;
+            }
+            #header {
+                background-color: #CCCCCC;
+                padding: 5px;
+            }
+            #content {
+                background-color: #77CFFF;
+                padding: 0px;
+            }
+            #footer {
+                background-color: #CCCAAA;
+                padding: 5px;
+                clear: both;
+            }
+            #section1 {
+                background-color: #CDDAFF;
+                width: 386px;
+                float: left;
+                pading-left: 5px;
+                margin-right: 5px;
+                border: 2px solid;
+            }
+            #section2 {
+                background-color: #CEEAFF;
+                width: 500px;
+                float: right;
+            }
+            #boxa {
+                width: 100px;
+                height: 100px;    
+                background-color: #CEEAFF;
+                position: absolute;
+                bottom: 161px;
+                right: 660px;
+                border-radius: 7px;
+            }
+            #boxa1 {
+                width: 100px;
+                height: 100px;    
+                background-color: #CEEAFF;
+                position: absolute;
+                left: 95px;
+                top: 405px;
+                border-radius: 7px;
+            }
+            #box, #box2 {
+                width: 400px;
+                height: 110px;    
+                background-color: #77CFFF;
+                position: relative;
+                bottom: 0px;
+                right: 0px;
+                box-shadow: 5px 5px 5px #CEEAFF;
+                opacity: .7;
+                float: left;
+            }
+            #box2 {
+                right: 5px;
+                float: right;
+                width: 450px;
+                text-align: left;
+            }
+            #box2 img {
+                float: left;
+            }
+        </style>
+    </head>
+    <body>       
+        <div id="container">
+            <div id="header"> Layout Example </div>
+            <div id="content"> 
+                <div id="section1">
+                    <h1>Section 1</h1>
+                    <h1>Section 1</h1>
+                    <h1>Section 1</h1> 
+                    <h1>Section 1</h1>
+                    <h1>Section 1</h1>
+                    <h1>Section 1</h1> 
+                </div> 
+                <div id="section2"> 
+                    <h1>Section 2</h1>
+                    <h1>Section 2</h1>
+                    <h1>Section 2</h1> 
+                    <h1>Section 2</h1>
+                    <h1>Section 2</h1>
+                    <h1>Section 2</h1> 
+                </div> 
+            </div>
+            <div id="footer"> &copy; ElasticJS.com </div>
+
+            <br/> <br/> 
+            <div id="box">Position Relative</div>
+            <div id="boxa">Position Absolute</div>
+            <div id="boxa1">Position Absolute</div>
+            
+            <div id="box2"> 
+                <img src="data:image/jpeg;base64,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">
+                It’s a collection of superfast tests – or “detects” as we like to call them – which run as your web page loads, then you can use the results to tailor the experience to the user.</div>
+        </div>      
+    </body>
+</html>
+
+
+<!--
+Div is a block level element, will take full width of container.
+Fixed - Giving fixed width
+Fluid - Giving % to be fluid
+
+Box positioning property:
+
+Css position property helps to remove the element from document flow.
+
+1, Float : right | left | none
+2, clear : both | left | right
+3, Position : static | fixed | relative | absolute
+
+min-height: Giving min height box;
+
+Css Colors:
+ 1, Color constant.
+ 2, Hexadecimal.
+ 3, RGB (CSS 3).
+ 4, Gradients - Collection of Colors (CSS 3).
+ 5, HSLA- Hue Saturation Light Alpha. (CSS 3) 
+
+Vendor Prefix:
+   Vendor specific will be used vendor best algorithm (this will have more feature than generic CSS feature) 
+-moz-  : Mozilla
+-webkit- : Chrome
+ms, mso : Microsoft
+-o- : Opera
+
+Polyfill:
+Adapting features or detecting features in the old browsers at maximum. (modenizr, htmlshim)
+
+CSS: Calculation Points
+Find out the total width of the container
+
+Total width = 900px
+section1 = 400px
+section2 = 500px;
+total box=  box + lpading + rpading + leftMagin + rightMargin + lborder + rborder
+
+
+Default font-size of any browser is "16px"
+
+
+
+-->
+
+http://www.tapan.am/files/Marcotte_E._-_Responsive_Web_Design_(A_Book_Apart_Brief_books_for_people_who_make_websites)_-_2011.pdf
